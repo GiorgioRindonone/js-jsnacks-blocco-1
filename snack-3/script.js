@@ -8,7 +8,8 @@
 var somma = 0;
 
 for (var i = 1; i <= 3; i++) {
-  var listaNum = prompt("inserisci numero");
+  var listaNum = parseInt(prompt("inserisci numero"));
+  // var listaNum = prompt("inserisci numero"); così è sbagliato perchè ci da una stringa e bisogna trasformarlo in numero
   somma = somma + listaNum;
   console.log(somma);
   // somma += listaNum;
